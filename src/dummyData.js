@@ -6,7 +6,7 @@ export const Users = [
   },
   {
     id: 2,
-    profilePicture: "assets/person/profilePic_2.jpeg",
+    profilePicture: "assets/person/profilePic_2.jpg",
     username: "Jennifer Patterson",
   },
   {
@@ -48,5 +48,50 @@ export const Users = [
     id: 10,
     profilePicture: "assets/person/profilePic_10.jpg",
     username: "Katrina Evans",
+  },
+];
+
+export const Posts = [
+  {
+    id: 1,
+    desc: "Check out this awesome train station!",
+    photo: "assets/post/post_1.jpg",
+    date: "5 mins ago",
+    userId: 1,
+    like: 32,
+    comment: 9,
+  },
+  {
+    id: 2,
+    photo: "assets/post/post_2.png",
+    date: "15 mins ago",
+    userId: 2,
+    like: 2,
+    comment: 1,
+  },
+  {
+    id: 3,
+    desc: "Every moment is a fresh beginning.",
+    photo: "assets/post/post_3.jpg",
+    date: "38 mins ago",
+    userId: 3,
+    like: 61,
+    comment: 2,
+  },
+  {
+    id: 4,
+    photo: "assets/post/post_4.jpg",
+    date: "2 hours ago",
+    userId: 4,
+    like: 7,
+    comment: 3,
+  },
+  {
+    id: 5,
+    photo: "assets/post/post_5.jpg",
+    date: "3 days ago",
+    userId: 5,
+    like: 23,
+    comment: 5,
   },
 ];
