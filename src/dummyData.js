@@ -11,23 +11,23 @@ export const Users = [
   },
   {
     id: 3,
-    profilePicture: "assets/person/profilePic_3.png",
+    profilePicture: "assets/person/profilePic_3.jpg",
     username: "John Smith",
   },
   {
     id: 4,
-    profilePicture: "assets/person/profilePic_4.png",
+    profilePicture: "assets/person/profilePic_4.jpg",
     username: "Brad Thompson",
   },
   {
     id: 5,
     profilePicture: "assets/person/profilePic_5.jpg",
-    username: "Tanner Warren",
+    username: "Darius Anderson",
   },
   {
     id: 6,
     profilePicture: "assets/person/profilePic_6.jpg",
-    username: "Ahmed Nadar",
+    username: "Emily Miller",
   },
   {
     id: 7,
@@ -47,7 +47,7 @@ export const Users = [
   {
     id: 10,
     profilePicture: "assets/person/profilePic_10.jpg",
-    username: "Katrina Evans",
+    username: "Megan Pierce",
   },
 ];
 
@@ -63,7 +63,7 @@ export const Posts = [
   },
   {
     id: 2,
-    photo: "assets/post/post_2.png",
+    photo: "assets/post/post_2.jpg",
     date: "15 mins ago",
     userId: 2,
     like: 2,
