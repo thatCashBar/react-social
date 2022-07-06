@@ -12,7 +12,7 @@ export default function Share() {
             src="/assets/person/profilePic_1.jpg"
             alt=""
           />
-          <input placeHolder="What's on your mind?" className="shareInput" />
+          <input placeholder="What's on your mind?" className="shareInput" />
         </div>
         <hr className="shareHr" />
         <div className="shareBottom">
