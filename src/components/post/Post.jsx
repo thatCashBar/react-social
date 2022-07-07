@@ -6,6 +6,7 @@ import { Users } from "../../dummyData";
 export default function Post({ post }) {
   const [like, setLike] = useState(post.like);
   const [isLiked, setIsLiked] = useState(false);
+  const publicFolderDir = process.env.REACT_APP_PUBLIC_FOLDER;
 
   const likeHandler = () => {
     setLike(isLiked ? like - 1 : like + 1);
@@ -33,19 +34,19 @@ export default function Post({ post }) {
         </div>
         <div className="postCenter">
           <span className="postText">{post?.desc}</span>
-          <img className="postImg" src={post.photo} alt="" />
+          <img className="postImg" src={publicFolderDir + post.photo} alt="" />
         </div>
         <div className="postBottom">
           <div className="postBottomLeft">
             <img
               className="likeIcon"
-              src="assets/thumbs_up.png"
+              src={`${publicFolderDir}/thumbs_up.png`}
               onClick={likeHandler}
               alt=""
             />
             <img
               className="heartIcon"
-              src="assets/heart.png"
+              src={`${publicFolderDir}/heart.png`}
               onClick={likeHandler}
               alt=""
             />
